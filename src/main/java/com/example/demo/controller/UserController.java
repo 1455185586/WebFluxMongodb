@@ -13,10 +13,6 @@ import reactor.core.publisher.Mono;
 import javax.validation.Valid;
 import java.time.Duration;
 
-/**
- * @author longzhonghua
- * @data 2/19/2019 8:25 PM
- */
 @RestController
 @RequestMapping(path = "/user")
 public class UserController {
